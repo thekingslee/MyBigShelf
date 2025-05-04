@@ -1,0 +1,184 @@
+@import url('../src/fonts/WEB/css/satoshi.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --aqua-200: 173, 100%, 90%;
+    --text-body: 235, 6%, 44%;
+    --text-primary: 210, 3%, 16%;
+    --text-secondary: 207, 4%, 57%;
+    --black-20: 0, 0%, 54%;
+    --black-20-light: 0, 0%, 54%, 0.3;
+    --black-50: 0, 0%, 98%;
+    --black-100: 0, 0%, 96%;
+    --black-200: 0, 0%, 93%;
+    --black-300: 0, 0%, 88%;
+    --black-400: 0, 0%, 85%;
+    --black-500: 0, 0%, 74%;
+    --black-900: 0, 0%, 12%;
+    --badge-text: 145, 100%, 33%;
+    --darkest: 228, 7%, 13%;
+    --error: 0, 100%, 67%;
+    --error-100: 0, 100%, 96%;
+    --error-200: 353, 100%, 98%;
+    --error-300: 0, 100%, 67%;
+    --gray-500: 235, 6%, 44%;
+    --info: 191, 70%, 33%;
+    --info-100: 190, 30%, 88%;
+    --info-light: 175, 100%, 98%;
+    --success: 145, 63%, 49%;
+    --success-light: 145, 100%, 95%;
+    --success-dark: 145, 46%, 44%;
+    --card-hover: 236, 74%, 95%;
+    --secondary: 260, 100%, 51%;
+    --header-bg: 312, 100%, 99%;
+    --benefit-bg: 177, 100%, 88%;
+    --statistic-bg: 42, 100%, 97%;
+    --testimonial-bg: 2, 100%, 94%;
+    --testimonial-card-bg: 11, 100%, 96%;
+    --testimonial-card-border: 2, 74%, 87%;
+    --affiliate-bg: 120, 100%, 96%;
+    --credit-green: 145, 46%, 44%;
+    --green-100: 143, 100%, 95%;
+    --green-200: 148, 100%, 97%;
+    --green-300: 145, 54%, 54%;
+    --warning-100: 43, 83%, 88%;
+    --warning: 25, 100%, 64%;
+    --cart: 173, 92%, 55%;
+    --cart-tray: 210, 34%, 13%;
+    --brand-bg-3: 209, 29%, 20%;
+    --drawer-close-bg: 210, 31%, 14%;
+    --yellow-300: 47, 100%, 49%;
+    --brand-outline2: 204, 18%, 28%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.testimonial-linear-bg {
+  background: linear-gradient(
+    153deg,
+    rgba(192, 188, 188, 0.12) 100%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border-radius: 2px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.color {
+  color: hsl(235, 6%, 44%);
+  color: hsl(0, 0%, 96%);
+  color: hsl(235, 6%, 44%);
+  color: #eee;
+  color: hsl(0, 0%, 96%);
+  color: hsl(173, 92%, 55%);
+  color: hsl(173, 92%, 55%);
+  color: hsl(173, 92%, 55%);
+  color: hsl(210, 34%, 13%);
+  color: hsl(0, 0%, 88%);
+  color: hsl(209, 29%, 20%);
+  color: hsl(209, 29%, 20%);
+  color: hsl(210, 31%, 14%);
+  color: hsl(209, 29%, 20%);
+  color: hsl(47, 100%, 49%);
+  color: hsl(204, 18%, 28%);
+}
+
+.btn:hover > svg {
+  stroke: white !important;
+}
+
+.cart-buy-btn:hover > svg {
+  stroke: #15202b !important;
+}

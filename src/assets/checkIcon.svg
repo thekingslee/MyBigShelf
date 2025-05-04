@@ -1,0 +1,10 @@
+<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Right Button">
+<mask id="mask0_168_459" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="2" width="12" height="9">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M11.7539 2.40047C12.0856 2.73871 12.0807 3.2822 11.743 3.6144L4.59722 10.6432L0.256526 6.37357C-0.0811977 6.04137 -0.0860865 5.49788 0.245606 5.15964C0.577299 4.82141 1.11997 4.81651 1.45769 5.14871L4.59722 8.23685L10.5418 2.38953C10.8796 2.05734 11.4222 2.06223 11.7539 2.40047Z" fill="#006FFD"/>
+</mask>
+<g mask="url(#mask0_168_459)">
+<rect id="Fill" x="0.000244141" y="0.0996094" width="11.9995" height="11.9995" fill="#197B90"/>
+</g>
+</g>
+</svg>
