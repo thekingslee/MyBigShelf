@@ -1,37 +1,89 @@
-# React + TypeScript + Vite
+# 📚 MyBigShelf
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BigShelf** is a dropshipping online bookstore designed to make books more accessible to readers across Nigeria, and help them actually finish the books they buy. This repo contains the codebase for the BigShelf website, built with performance, clarity, and mobile-first design in mind.
 
-Currently, two official plugins are available:
+# 🎯 Big Philosophy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ✨ At BigShelf, we believe a book’s real value comes from finishing it — not just buying it.
 
-## Expanding the ESLint configuration
+BigShelf is more than an e-commerce site. It’s a movement to help people get real value from their books that is why we build tools to help users go from buying a book to actually getting something out of it.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🌐 Live Site
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-};
+🔗 [mybigshelf.com](https://mybigshelf.com)
+
+---
+
+## 🚀 Key Features
+
+- Browse and discover books by genre, author, or title
+- Search with filtering options
+- Add to cart and checkout with Paystack integration
+- Track orders and delivery status
+- Responsive across devices
+- Delivery by individual order and by BookHauls
+- Coupon support for the checkout system (Coming soon)
+- AI agent to help people find what they are looking for (Coming soon)
+- A fun, game-like system that keep users motivated to read and finish their books. (Coming soon)
+
+---
+
+## 🧰 Tech Stack
+
+| Layer      | Tech                           |
+| ---------- | ------------------------------ |
+| Framework  | [React.js](https://react.dev/) |
+| Language   | TypeScript                     |
+| Styling    | Tailwind CSS + custom css      |
+| State Mgmt | Zustand, React Query           |
+| Payments   | Paystack                       |
+| Deployment | Vercel                         |
+
+---
+
+## 🗂️ Project Structure
+
+MyBigShelf/
+├── src/  
+│ ├── routes/ # Application routing (e.g., Router.ts)
+│ ├── services/ # API clients and service logic (e.g., protected-api-client.ts)
+│ ├── stores/ # Zustand state management (e.g., cartStore.ts)
+│ ├── pages/ # Page components for routes
+│ ├── components/ # Shared UI components
+│ ├── hooks/ # Custom React hooks
+│ └── utils/ # Utility functions (e.g., JWT validation)
+│
+├── public/ # Static assets (e.g., images, icons)
+└── .env.local # Environment configuration
+
+---
+
+## 🛠️ Getting Started
+
+To run the project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/thekingslee/MyBigShelf.git
+cd MyBigShelf
+
+# Install dependencies
+npm install
+
+# Edit the .env.local file with your specific configuration
+cp example.env .env.local
+
+# Start the development server
+npm dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list.
+---
 
-## Supported Url Params
+## 📬 Contact
 
-- `affiliate` : To link orders to affiliate
-- `item-id`: To enabling book shares
-- `haul` : To keep haul details
-- `order-id`: To make order tracking sharable
+For inquiries, feedback, or collaboration, feel free to reach out:
+
+- Twitter: [Kingslee](https://twitter.com/nworiekingslee)
+- Email: [kingslee@bigshelf.ng](mailto:kingslee@mybigshelf.com)
