@@ -45,18 +45,20 @@ BigShelf is more than an e-commerce site. It’s a movement to help people get r
 
 ## 🗂️ Project Structure
 
+```
 MyBigShelf/
-├── src/  
-│ ├── routes/ # Application routing (e.g., Router.ts)
-│ ├── services/ # API clients and service logic (e.g., protected-api-client.ts)
-│ ├── stores/ # Zustand state management (e.g., cartStore.ts)
-│ ├── pages/ # Page components for routes
-│ ├── components/ # Shared UI components
-│ ├── hooks/ # Custom React hooks
-│ └── utils/ # Utility functions (e.g., JWT validation)
+├── src/
+│ ├── routes/               # Application routing (e.g., Router.ts)
+│ ├── services/             # API clients and service logic (e.g., protected-api-client.ts)
+│ ├── stores/               # Zustand state management (e.g., cartStore.ts)
+│ ├── pages/                # Page components for routes
+│ ├── components/           # Shared UI components
+│ ├── hooks/                # Custom React hooks
+│ └── utils/                # Utility functions (e.g., JWT validation)
 │
-├── public/ # Static assets (e.g., images, icons)
-└── .env.local # Environment configuration
+├── public/                 # Static assets (e.g., images, icons)
+└── .env.local              # Environment configuration
+```
 
 ---
 
